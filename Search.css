@@ -1,0 +1,38 @@
+/* Container for search input */
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Wrapper around the input and the search icon */
+  .search-input-wrapper {
+    position: relative;
+    width: 300px; /* You can adjust the width */
+  }
+  
+  /* Style for the input field */
+  .search-input {
+    width: 100%;
+    padding: 10px 10px 10px 30px; /* Make space on the left side for the icon */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  /* Style for the search icon */
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 18px;
+  }
+  
+  /* On hover, change the color of the icon */
+  .search-icon:hover {
+    color: #000;
+  }
+  

@@ -1,0 +1,64 @@
+
+.trending-cont{
+    background: #f5f0f4;
+    background-size: cover;
+    padding: 10px;
+}
+.trend-sub-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.trend{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+}
+.trend p{
+    color: orange;
+    cursor: pointer;
+    font-size: 14px;
+}
+.trend h1{
+    font-size: 18px;
+}
+.trending-card{
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 15px;
+    margin: 10px;
+}
+.trend-images{
+    display: flex;
+    justify-content: center;
+}
+.trend-img{
+    width: 160px;
+    height: 160px;
+}
+.trending-card h5{
+    color: #111;
+}
+.trending-card span{
+    color: #111;
+}
+.discount{
+    background-color: #eee;
+    padding: 10px 10px;
+    color: #999;
+    width: 140px;
+    border-radius: 5px;
+    
+}
+.disc{
+    color: #999;
+    text-decoration: line-through;
+    font-size: 15px;
+}
+#offer{
+    color: green;
+    font-size: 17px;
+}
